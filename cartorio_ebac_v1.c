@@ -143,7 +143,8 @@ int loop=1;
     printf("Escolha qual função deseja executar:\n\n");
 	printf("\t1 - Registrar usuário;\n");
     printf("\t2 - Consultar usuário;\n");
-    printf("\t3 - Deletar usuário;\n");     
+    printf("\t3 - Deletar usuário;\n");
+    printf("\t4 - Sair do programa.\n\n\n");     
   
     printf("Opção: "); //final do menu
     
@@ -165,6 +166,10 @@ int loop=1;
 		deletar();
 		break;
 		
+		case 4: 
+		printf("Obrigado!");
+		return 0;
+		break;
 			
 		default: 	
 	    printf("\t- Opção indisponível =(  \n\n");
